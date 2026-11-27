@@ -1,6 +1,6 @@
 # Decision register (D1-D16)
 
-Source of truth for programme decisions. Mirrors plan v3.5, section 9. Status as of November 27, 2026.
+Source of truth for programme decisions. Mirrors plan v3.6, section 9. Status as of November 27, 2026.
 
 | ID | Decision | Owner | Deadline | Status |
 |----|----------|-------|----------|--------|
@@ -15,11 +15,11 @@ Source of truth for programme decisions. Mirrors plan v3.5, section 9. Status as
 | D9 | Delivery team and product owner | general manager | Dec 15, 2026 | Open (date pulled forward) |
 | D10 | Acceptance thresholds | steering group | Mar 31, 2027 | Proposed |
 | D11 | Throwaway prototypes during design | platform owner | - | Approved Nov 27, with guardrails |
-| D12 | Offline conflict policy | tech lead, operations | design phase | Open |
+| D12 | Offline conflict policy | tech lead, operations | Mar 31, 2027 (proposed) | Open |
 | D13 | Tablet fleet management | IT, security | Mar 31, 2027 | Open |
 | D14 | Copilot launch timing | general manager, IT | after R1b gate | Open |
 | D15 | Official accounting books | finance, general manager | during design, before R1b build | Open |
 | D16 | Drilling data rights | contracts, legal | before R3 build | Open |
-| D17 | In-house or external build | general manager | Dec 15, 2026 | Open (sixth review, Nov 27) |
+| D17 | In-house or external build | general manager | Dec 8, 2026 (proposed, owner to confirm) | Open (seventh review, Nov 27) |
 
 Full decision text: plan v3.4, section 9.
