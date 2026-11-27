@@ -4,7 +4,7 @@ The design phase produces this numbered set before any production code (owner-ke
 
 | ID | Design document | Release | Feeds decisions | Status |
 |----|-----------------|---------|-----------------|--------|
-| DD-01 | Rig register, permanent Rig_ID keys and fleet statuses | R1 | D6 | Planned |
+| DD-01 | Rig register, permanent Rig_ID keys and fleet statuses | R1 | D6 | Draft v0.1 (Nov 27), awaiting owner review |
 | DD-02 | Daily drilling report with client sign-off (PIN-and-hash signature, locking, amendments) | R1 | D10 | Planned |
 | DD-03 | Approvals and audit trail (matrix per document type) | R1 | D1 | Planned |
 | DD-04 | Offline capture and sync (tablet app vs ODK, queue, conflict policy) | R1 | D8, D12, D2 | Planned |
