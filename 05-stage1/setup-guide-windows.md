@@ -2,7 +2,7 @@
 
 For: the owner's IT person (or the owner himself). Time: about 1-2 hours, mostly downloads.
 Verified November 27, 2026 against the official sources listed at the end.
-Golden rules (plan v3.7): DUMMY DATA ONLY - no personal data, no real client contract terms. No rig is connected. Nothing is exposed to the internet. No passwords are ever sent through chat.
+Golden rules (plan v3.8): DUMMY DATA ONLY - no personal data, no real client contract terms. No rig is connected. Nothing is exposed to the internet. No passwords are ever sent through chat.
 
 ## 0. Check the machine first (5 minutes)
 
