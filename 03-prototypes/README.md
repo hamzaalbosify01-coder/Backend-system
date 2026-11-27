@@ -17,5 +17,5 @@ Throwaway prototypes only, under the D11 guardrails approved November 27, 2026:
 | P3 | PIN-and-hash daily-report signature | acceptance design | Planned |
 | P4 | Arabic RTL daily-report form | D8 | Planned |
 | P5 | Scoped, short-lived copilot session tokens (custom build; Frappe's built-in tokens are long-lived per-user keys) | DD-11 | Planned (sixth review, Nov 27) |
-| P6 | Read-replica routing coverage: prove every read path routes to the replica automatically | DD-05 | Planned (sixth review, Nov 27) |
-| P7 | Frappe-to-Superset OAuth sign-on, including session revocation on deprovisioning (community pattern, not a supported integration) | DD-05 | Planned (seventh review, Nov 27) |
+| P6 | Read-replica routing coverage: replica routing is opt-in per endpoint, so mark every copilot and report endpoint explicitly, add a CI test that fails when one is not replica-routed, and check how replica lag affects a just-revoked permission | DD-05 | Planned (eighth review, Nov 27) |
+| P7 | Frappe-to-Superset OAuth sign-on, including server-side session store (Superset's default Flask cookie sessions cannot be revoked server-side - official security docs) and revocation on deprovisioning | DD-05 | Planned (eighth review, Nov 27) |

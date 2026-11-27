@@ -1,6 +1,6 @@
 # Decision register (D1-D16)
 
-Source of truth for programme decisions. Mirrors plan v3.6, section 9. Status as of November 27, 2026.
+Source of truth for programme decisions. Mirrors plan v3.7, section 9 (D17 now rests on the like-for-like table, section 8). Status as of November 27, 2026.
 
 | ID | Decision | Owner | Deadline | Status |
 |----|----------|-------|----------|--------|
