@@ -20,7 +20,7 @@ The daily drilling report is the commercial heart of R1: the client signs it, bi
 
 Per-signer keys:
 - Each signer (rig-side company representative AND the client company man) gets his own key pair at enrollment.
-- The private key is generated inside the tablet's secure hardware and never leaves it. Android key attestation is verified at enrollment, so this is PROVEN per device, not assumed. Note: ATEX/IECEx-rated tablets may offer TEE but not StrongBox - confirmed per model before purchase (D13).
+- The private key is generated inside the tablet's secure hardware and never leaves it. Android key attestation is verified at enrollment, so this is PROVEN per device, not assumed. Acceptance rule (ninth review, Nov 27): TEE-backed keys are ACCEPTED provided attestation is verified at enrollment; StrongBox is PREFERRED where the tablet model offers it. ATEX/IECEx-rated units may offer TEE but not StrongBox - confirmed per model before purchase (D13).
 - The key unlocks with the signer's PIN. Wrong-PIN attempts are limited (proposed: 5), after which the key locks and the device requires re-enrollment; a lost tablet is remotely wiped (D13) - see section 6 for the wipe trade-off.
 
 What is signed:
@@ -28,7 +28,7 @@ What is signed:
 - The device signs the canonical report's hash with a timestamp. The server verifies against the signer's registered public key on sync. An edited report fails verification even if the editor recomputes the hash.
 
 Counterparty copy (the dispute-settler):
-- The moment the company man signs, the signed canonical report plus the signature go to the OPERATOR'S own address (email or operator portal). An independent copy the contractor cannot touch is what actually settles "you signed for him" arguments.
+- The counterparty copy goes to the OPERATOR in two steps, because a rig can be offline for days (ninth review, Nov 27). AT SIGNING: the tablet shows a short fingerprint of the signed canonical report (a 6-8 character code or QR), and the company man includes it in the morning report he already sends his own office over his own link - an independent same-day record the contractor cannot touch. ON SYNC: the full signed canonical report plus the signature go to the operator's own address (email or operator portal) and are checked against that fingerprint. An independent copy the contractor cannot touch is what actually settles "you signed for him" arguments.
 
 Provenance and custody:
 - Every signature records which app build produced it (build pinning).

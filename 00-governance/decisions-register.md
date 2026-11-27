@@ -1,6 +1,6 @@
 # Decision register (D1-D16)
 
-Source of truth for programme decisions. Mirrors plan v3.7, section 9 (D17 now rests on the like-for-like table, section 8). Status as of November 27, 2026.
+Source of truth for programme decisions. Mirrors plan v3.8, section 9. D17 rests on the matched-scenario like-for-like table (section 8): LOW $1.32M vs $1.33M, MID about $2.51M vs $2.60M, HIGH $3.70M vs $3.86M, both buffered; in-house carries a written AI-productivity assumption, a measurement plan, a tripwire and a $100k-$350k held reserve. Status as of November 27, 2026.
 
 | ID | Decision | Owner | Deadline | Status |
 |----|----------|-------|----------|--------|
@@ -20,6 +20,6 @@ Source of truth for programme decisions. Mirrors plan v3.7, section 9 (D17 now r
 | D14 | Copilot launch timing | general manager, IT | after R1b gate | Open |
 | D15 | Official accounting books | finance, general manager | during design, before R1b build | Open |
 | D16 | Drilling data rights | contracts, legal | before R3 build | Open |
-| D17 | In-house or external build | general manager | Dec 8, 2026 (proposed, owner to confirm) | Open (seventh review, Nov 27) |
+| D17 | In-house or external build | general manager | Dec 8, 2026 (proposed, owner to confirm) | Open (ninth-review numbers, Nov 27) |
 
 Full decision text: plan v3.4, section 9.
