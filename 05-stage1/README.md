@@ -9,4 +9,5 @@ Rules (from plan v3.7):
 
 Planned stack: Frappe + ERPNext v16 (official frappe_docker), MariaDB with point-in-time recovery configured from day one (practice for the real thing), HTTPS off (internal only) until D5 decides where the real system lives.
 
-Setup steps land here as a script once the host is chosen - choosing the host is the only thing waiting on the owner (a small cloud VM costs roughly $5-$15/month at this size; existing office hardware costs nothing).
+Host chosen by the owner (Nov 27): an existing office machine running Windows - no spending.
+The step-by-step guide for his IT person is setup-guide-windows.md in this folder (Docker Desktop with the WSL2 backend plus the official frappe_docker demo setup, ERPNext v16.61.0). Hardware to check first: 8GB RAM (16 better), 4-core 64-bit CPU with SLAT, virtualization enabled in BIOS, 25GB free disk, Windows 10 22H2+ or 11 23H2+.
