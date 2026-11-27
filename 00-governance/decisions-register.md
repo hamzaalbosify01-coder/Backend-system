@@ -1,6 +1,6 @@
 # Decision register (D1-D16)
 
-Source of truth for programme decisions. Mirrors plan v3.4, section 9. Status as of November 27, 2026.
+Source of truth for programme decisions. Mirrors plan v3.5, section 9. Status as of November 27, 2026.
 
 | ID | Decision | Owner | Deadline | Status |
 |----|----------|-------|----------|--------|
@@ -20,5 +20,6 @@ Source of truth for programme decisions. Mirrors plan v3.4, section 9. Status as
 | D14 | Copilot launch timing | general manager, IT | after R1b gate | Open |
 | D15 | Official accounting books | finance, general manager | during design, before R1b build | Open |
 | D16 | Drilling data rights | contracts, legal | before R3 build | Open |
+| D17 | In-house or external build | general manager | Dec 15, 2026 | Open (sixth review, Nov 27) |
 
 Full decision text: plan v3.4, section 9.
