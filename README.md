@@ -10,7 +10,7 @@ Everything about this system lives here: decisions, designs, standards, prototyp
 - `01-design/` - design documents DD-01 onward, with the index in its README
 - `02-standards/` - standards register (editions verified against the publishers)
 - `03-prototypes/` - throwaway prototypes under decision D11 guardrails
-- `04-plan/` - consolidated plan versions (current: v3.4, November 27, 2026)
+- `04-plan/` - consolidated plan versions (current: v3.12, November 27, 2026)
 
 ## Build limits (owner-kept, November 27, 2026)
 
@@ -23,4 +23,4 @@ Everything about this system lives here: decisions, designs, standards, prototyp
 
 ## The world-class bar
 
-Verified, gated, secure, safe, recoverable, owned. See plan v3.4, section 6.
+Verified, gated, secure, safe, recoverable, owned. See plan v3.12, section 6.
